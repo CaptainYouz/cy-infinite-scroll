@@ -20,30 +20,30 @@ $ npm install --save cy-infinite-scroll
 ###
 Include the file
 ```html
-<script type="text/javascript" src="youPath/cyInfiniteScroll.min.js"></script>
+<script type="text/javascript" src="yourPath/cyInfiniteScroll.min.js"></script>
 ```
 And the module to your angular app
 ```javascript
-angular.module('myAppl', ['cyInfiniteScroll']);
+angular.module('myApp', ['cyInfiniteScroll']);
 ```
 
 ### Parameters
  * <b>infiniteScroll:</b> function to execute when scroll
 
 
- * <b>distance:</b> This is an optional parameter to controll scroll trigger. This parameter can accept value ranging from  0 -100. For example if we mention  50 in this parameter, scroll function will called when mouse point reached on 50% of the screen.
+ * <b>distance:</b> this is an optional parameter to controll scroll trigger. This parameter can accept value ranging from  0 -100. For example if we mention  50 in this parameter, scroll function will called when mouse point reached on 50% of the screen.
 
 
- * <b>disableScroll:</b> This is an optional parameter to disable scroll. If true, the infiniteScroll function will not be execute
+ * <b>disableScroll:</b> this is an optional parameter to disable scroll. If true, the infiniteScroll function will not be execute
 
 
 
 ### Example
 
-In your controller (using vm pattern):
+In your controller:
 ```javascript
 function UserController($scope, UserService) {
-	$scope.users        = [];
+    $scope.users        = [];
     $scope.isLoading    = false;
     $scope.getMoreUsers = getMoreUsers;
 
@@ -57,7 +57,7 @@ function UserController($scope, UserService) {
     }
 }
 
-angular.module('myAppl', ['cyInfiniteScroll']).controller('UserController', UserController);
+angular.module('myApp', ['cyInfiniteScroll']).controller('UserController', UserController);
 ```
 
 In your html view:
