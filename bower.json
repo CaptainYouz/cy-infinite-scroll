@@ -1,0 +1,14 @@
+{
+  "name": "cyInfiniteScroll",
+  "description": "Angular directive in VanillaJs for infinite scroll",
+  "main": "",
+  "authors": [
+    "Anas M <captainyouz@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "Angular",
+    "InfiniteScroll"
+  ],
+  "homepage": "https://github.com/CaptainYouz/cyInfiniteScroll",
+}
