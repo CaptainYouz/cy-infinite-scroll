@@ -1,7 +1,8 @@
 {
-  "name": "cyInfiniteScroll",
+  "name": "cy-infinite-scroll",
   "description": "Angular directive in VanillaJs for infinite scroll",
   "main": "",
+  "version": "1.0.0",
   "authors": [
     "Anas M <captainyouz@gmail.com>"
   ],
