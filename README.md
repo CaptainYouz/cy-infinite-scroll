@@ -1,7 +1,7 @@
 # CyInfiniteScroll
 
 
-Directives for infinite scroll in vanillaJs ES6.
+Directives for infinite scroll in vanillaJs ES6. No jQuery required !
 
 Originaly from http://shabeebk.com/blog/lazy-scroll-infinite-scrolling-angularjs-plugin
 
