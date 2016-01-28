@@ -1,4 +1,4 @@
-# CyInfiniteScroll
+# cy-infinite-scroll
 
 
 Directives for infinite scroll in vanillaJs ES6. No jQuery required !
