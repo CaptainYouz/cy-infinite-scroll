@@ -5,6 +5,9 @@ Directives for infinite scroll in vanillaJs ES6.
 
 Originaly from http://shabeebk.com/blog/lazy-scroll-infinite-scrolling-angularjs-plugin
 
+### Demo
+You can see a [live demo]
+
 ## How to use ?
 
 ### Install with bower
@@ -72,3 +75,5 @@ In your html view:
 ### Issues
 
 If you find any issues , please report on the issue section of github or send a mail to captainyouz@gmail.com
+
+[live demo]: <http://captainyouz.github.io/cy-infinite-scroll>
